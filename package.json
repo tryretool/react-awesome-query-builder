@@ -74,7 +74,7 @@
     "eslint": "^0.24.0",
     "eslint-config-airbnb": "0.0.6",
     "eslint-plugin-react": "^2.6.2",
-    "expect": "^1.15.2",
+    "expect": "^25.4.0",
     "file-loader": "^0.8.5",
     "history": "^1.13",
     "karma": "^0.13.22",
