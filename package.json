@@ -85,7 +85,7 @@
     "karma-webpack": "^1.7.0",
     "less": "^2.6",
     "less-loader": "^2.2",
-    "mocha": "^2.2.5",
+    "mocha": "^7.1.2",
     "node-sass": "^4.5.3",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
