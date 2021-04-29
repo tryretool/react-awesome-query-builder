@@ -1,0 +1,69 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 2.7.0
+    - 5.24.0
+    - 5.24.1
+    - 5.24.2
+    - 5.24.3
+    - 5.24.4
+    - 5.25.1
+    - 5.26.0
+    - 5.26.2
+    - 5.26.3
+    - 5.27.1
+    - 5.27.2
+    - 5.28.0
+    - 5.30.0
+    - 5.31.0
+    - 5.31.2
+    - 5.32.0
+    - 5.33.2
+    - 5.34.0
+    - 5.35.0
+    - 5.35.1
+    - 5.36.0
+  - dependency-name: eslint
+    versions:
+    - 7.11.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: karma
+    versions:
+    - 6.0.3
+    - 6.0.4
+    - 6.1.0
+    - 6.1.1
+    - 6.1.2
+    - 6.2.0
+    - 6.3.0
+    - 6.3.1
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 5.2.2
+    - 7.22.0
+    - 7.23.1
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: url-loader
+    versions:
+    - 4.1.0
+  - dependency-name: file-loader
+    versions:
+    - 0.11.2
+  - dependency-name: style-loader
+    versions:
+    - 0.23.1
